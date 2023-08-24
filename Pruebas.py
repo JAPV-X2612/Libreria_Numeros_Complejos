@@ -90,7 +90,7 @@ class Test_Complex_Operations(unittest.TestCase):
         self.assertAlmostEqual(ctp[0],2)
         self.assertAlmostEqual(ctp[1],3)
         ctp = cart_to_polar((-5.3,0))
-        self.assertAlmostEqual(ctp[0],5.3)
+        self.assertAlmostEqual(ctp[0],-5.3)
         self.assertAlmostEqual(ctp[1],0)
 
 

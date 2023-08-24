@@ -58,7 +58,7 @@ def complex_conj(c1):
 def complex_fase(c1):
     """Calcula y devuelve la fase de un número complejo
     (tuple) -> int or float"""
-    θ = atan(c1[1]/c1[0])
+    θ = atan2(c1[1],c1[0])
     return θ
     
     
