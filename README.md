@@ -18,7 +18,7 @@ Operaciones de números complejos:
 8. Conversión de coordenadas cartesianas a polares (a,b) → (ρ,θ)
 9. Conversión de coordenadas polares a cartesianas (ρ,θ) → (a,b)
 
-### Requisitos 🧾
+## Requisitos 🧾
 ---
 Para poder implementar la librería en su máquina local, se recomienda tener las siguientes ***especificaciones mínimas***:
 
@@ -53,7 +53,7 @@ Para usar esta proyecto se recomienda seguir los siguientes pasos:
       $ git exit
      ```
 
-### Instalación 🔧
+## Instalación 🔧
 ---
 
 Una vez descargada una copia del repositorio en su máquina local, se recomienda:
