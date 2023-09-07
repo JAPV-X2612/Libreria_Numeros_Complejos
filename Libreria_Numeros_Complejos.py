@@ -2,7 +2,7 @@
 # Carrera / Semestre: Ingeniería de Sistemas / 4to Semestre
 # Asignatura: Ciencias Naturales y Tecnología (CNYT) 
 # Nombre: Jesús Alfonso Pinzón Vega
-# Fecha: 08/17/2023
+# Fecha: 2023/08/17
 
 # Librería de Números Complejos
 
@@ -62,11 +62,17 @@ def complex_fase(c1):
     return θ
     
     
-def cart_to_polar(c1):
+def cart_to_polar(c):
     """Convierte las coordenadas cartesianas a polares de un número complejo
     (tuple) -> tuple"""
-    p = complex_mod(c1)
-    θ = complex_fase(c1)
-    a1 = p*cos(θ)
-    b1 = p*sin(θ)
-    return (a1,b1)
+    p = complex_mod(c)
+    θ = complex_fase(c)
+    return (p,θ)
+
+
+def polar_to_cart(c):
+    """Convierte las coordenadas polares a cartesianas de un número complejo
+    (tuple) -> tuple"""
+    a = c[0]*cos(c[1])
+    b = c[0]*sin(c[1])
+    return (a,b)
